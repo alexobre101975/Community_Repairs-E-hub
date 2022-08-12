@@ -12,7 +12,7 @@ ${PACKAGE_NAME}       com.sentrics.engage360
 
 *** Keywords ***
 Open App
-# Entrar a la Aplicacion
+# Enter to Aplications
     Open Application   ${url}
   ...   platformName=${PlatFormName}
   ...   platformVersion=${PlatFormVersion}
@@ -62,23 +62,24 @@ Pending Status Cards - Repairs
 
 # NGG-TC-130
 Scheduled Status Cards - Repairs
-        Wait Until Element Is Visible       id=com.sentrics.engage360:id/clBackgroundImage
-        Wait Until Element Is Visible       id=com.sentrics.engage360:id/btnStatusPill
+
         Press Keycode           22
         Press Keycode           23
         Press Keycode           4
 
 # NGG-TC-131
 Completed Status Cards - Repairs
-        Wait Until Element Is Visible       id=com.sentrics.engage360:id/clBackgroundImage
-        Wait Until Element Is Visible       id=com.sentrics.engage360:id/btnStatusPill
+
         Press Keycode           19
         Press Keycode           22
         Press Keycode           23
         Press Keycode           20
         Press Keycode           23
         Press Keycode           4
+
         Wait Until Element Is Visible       id=com.sentrics.engage360:id/btnNewRepair
+        Element Text Should Be          id=com.sentrics.engage360:id/btnNewRepair           Add New Request
+        Wait Until Element Is Visible       id=com.sentrics.engage360:id/tvWorkOrders
         Press Keycode           4
         Press Keycode           4
 

@@ -7,7 +7,7 @@ Suite Setup   Open app
 Suite Teardown    Close All Applications
 
 *** Test Cases ***
-Repairs
+Automation E-hub Community-Repairs
        Open App
        Open Home Page
        # NGG-TC-127
