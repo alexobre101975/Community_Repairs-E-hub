@@ -40,8 +40,8 @@ Home - Repairs
 # NGG-TC-128
 Select Categories - Repairs
         # Pending
-        Wait Until Element Is Visible           id=com.sentrics.engage360:id/btnNewRepair
-        Element Text Should Be                  id=com.sentrics.engage360:id/btnNewRepair       Add New Request
+        Wait Until Element Is Visible            id=com.sentrics.engage360:id/button_new_repair
+        Element Text Should Be                   id=com.sentrics.engage360:id/button_new_repair      Add New Request
         press Keycode           22
         Press Keycode           23
         # Completed
@@ -51,9 +51,10 @@ Select Categories - Repairs
 # NGG-TC-129
 Pending Status Cards - Repairs
         press Keycode           21
-        Wait Until Element Is Visible       id=com.sentrics.engage360:id/tvCategories
+        Wait Until Element Is Visible       id=com.sentrics.engage360:id/text_categories
         press keycode           23
-        Wait Until Element Is Visible       id=com.sentrics.engage360:id/tvCategories
+        Wait Until Element Is Visible       id=com.sentrics.engage360:id/text_categories
+
         Press Keycode           20
         Press Keycode           21
         Wait Until Element Is Visible       id=com.sentrics.engage360:id/tvWorkOrders
@@ -77,8 +78,8 @@ Completed Status Cards - Repairs
         Press Keycode           23
         Press Keycode           4
 
-        Wait Until Element Is Visible       id=com.sentrics.engage360:id/btnNewRepair
-        Element Text Should Be          id=com.sentrics.engage360:id/btnNewRepair           Add New Request
+        Wait Until Element Is Visible      id=com.sentrics.engage360:id/button_new_repair
+        Element Text Should Be             id=com.sentrics.engage360:id/button_new_repair         Add New Request
         Wait Until Element Is Visible       id=com.sentrics.engage360:id/tvWorkOrders
         Press Keycode           4
         Press Keycode           4
