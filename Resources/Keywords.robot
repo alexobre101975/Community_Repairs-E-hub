@@ -57,7 +57,7 @@ Pending Status Cards - Repairs
 
         Press Keycode           20
         Press Keycode           21
-        Wait Until Element Is Visible       id=com.sentrics.engage360:id/tvWorkOrders
+        Wait Until Element Is Visible       id=com.sentrics.engage360:id/text_work_orders
         Press Keycode           23
         Press Keycode           4
 
@@ -76,13 +76,12 @@ Completed Status Cards - Repairs
         Press Keycode           23
         Press Keycode           20
         Press Keycode           23
+
+# Return
         Press Keycode           4
 
-        Wait Until Element Is Visible      id=com.sentrics.engage360:id/button_new_repair
-        Element Text Should Be             id=com.sentrics.engage360:id/button_new_repair         Add New Request
-        Wait Until Element Is Visible       id=com.sentrics.engage360:id/tvWorkOrders
         Press Keycode           4
-        Press Keycode           4
+
 
 
 
