@@ -35,7 +35,7 @@ Home - Repairs
         Press Keycode           20
         Press Keycode           23
         Wait Until Element Is Visible           id=com.sentrics.engage360:id/tvAppName
-        Element Text Should Be                  id=com.sentrics.engage360:id/tvAppName          Repairs
+
 
 # NGG-TC-128
 Select Categories - Repairs
