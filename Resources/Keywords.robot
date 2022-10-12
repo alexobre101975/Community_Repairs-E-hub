@@ -28,16 +28,14 @@ Open Home Page
         Element Text Should Be           id=com.sentrics.engage360:id/tvGroupName          Entertainment
         Press KeyCode           20
         Press KeyCode           20
-# NGG-TC-127
+# NGG-TC-65
 Home - Repairs
         Press KeyCode           22
         Press KeyCode           22
         Press Keycode           20
         Press Keycode           23
-        Wait Until Element Is Visible           id=com.sentrics.engage360:id/tvAppName
 
-
-# NGG-TC-128
+# NGG-TC-64
 Select Categories - Repairs
         # Pending
         Wait Until Element Is Visible            id=com.sentrics.engage360:id/button_new_repair
@@ -48,7 +46,7 @@ Select Categories - Repairs
         press Keycode           22
         Press Keycode           23
 
-# NGG-TC-129
+# NGG-TC-63
 Pending Status Cards - Repairs
         press Keycode           21
         Wait Until Element Is Visible       id=com.sentrics.engage360:id/text_categories
@@ -61,14 +59,14 @@ Pending Status Cards - Repairs
         Press Keycode           23
         Press Keycode           4
 
-# NGG-TC-130
+# NGG-TC-62
 Scheduled Status Cards - Repairs
 
         Press Keycode           22
         Press Keycode           23
         Press Keycode           4
 
-# NGG-TC-131
+# NGG-TC-61
 Completed Status Cards - Repairs
 
         Press Keycode           19

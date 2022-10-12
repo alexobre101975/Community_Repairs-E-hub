@@ -10,13 +10,13 @@ Suite Teardown    Close All Applications
 Automation E-hub Community-Repairs
        Open App
        Open Home Page
-       # NGG-TC-127
+       # NGG-TC-65
        Home - Repairs
-       # NGG-TC-128
+       # NGG-TC-64
        Select Categories - Repairs
-        # NGG-TC-129
+        # NGG-TC-63
        Pending Status Cards - Repairs
-        # NGG-TC-130
+        # NGG-TC-62
        Scheduled Status Cards - Repairs
-       # NGG-TC-131
+       # NGG-TC-61
        Completed Status Cards - Repairs
